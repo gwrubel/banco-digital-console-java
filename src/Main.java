@@ -29,6 +29,9 @@ public class Main {
                     System.out.println("Saindo...");
                     executando = false;
                     break;
+                default:
+                System.out.println("Operação invalida!");
+                    break;
             }
         }
     }
